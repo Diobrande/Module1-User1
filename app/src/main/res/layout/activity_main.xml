@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <View
+        android:id="@+id/textView"
+        android:layout_width="791dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Определить цвет"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:textSize="48sp"
+        android:text="Вы выбрали цвет:"/>
+
+    <View
+        android:id="@+id/preview_selected_color"
+        android:layout_width="215dp"
+        android:layout_height="237dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="848dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Выбрать цвет"
+        android:textSize="48sp" />
+</LinearLayout>
